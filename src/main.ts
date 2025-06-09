@@ -1,5 +1,5 @@
 import "./style.css";
-import { Page } from "./rlib/timeline/t2025/may/HtmlToMyLib/index";
+import { Page } from "./orlib/timeline/t2025/may/HtmlToMyLib/index";
 // import { TestCases } from "./rlib/timeline/t2025/may/HtmlToMyLib/Testcases";
 
 let htmlString = `
@@ -11,13 +11,6 @@ let htmlString = `
     <div class="h-screen"></div>
 </main>
 `;
-// TestCases.test1();
-// TestCases.test2();
-// const parser = new HTMLParseAndMyLib();
-// parser.set_text(htmlString);
-// parser.parseToString().then((res) => {
-//     console.log(res);
-// });
 
 const page = Page();
 

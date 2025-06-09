@@ -10,6 +10,8 @@
         "deploy": "gh-pages -b gh-pages -d dist"
     },
     "devDependencies": {
+        "dependency-cruiser": "^16.10.2",
+        "fs-extra": "^11.3.0",
         "typescript": "~5.7.2",
         "vite": "^6.2.0"
     },
